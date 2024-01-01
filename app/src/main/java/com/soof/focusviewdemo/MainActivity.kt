@@ -144,12 +144,6 @@ fun DetailScreen(shapeType: ShapeType) {
             .fillMaxSize()
             .padding(top = 56.dp)
     ) {
-//        Image(
-//            painter = painterResource(id = R.drawable.cat),
-//            contentDescription = "Cat Image",
-//            modifier = Modifier.fillMaxSize(),
-//            contentScale = ContentScale.Crop
-//        )
         VideoPlayer(uri = "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4".toUri())
         FocusCompose(
             modifier = Modifier.fillMaxSize(),
